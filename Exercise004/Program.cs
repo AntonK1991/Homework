@@ -1,23 +1,20 @@
-﻿int a = 8;
+﻿int a = 24;
 int b = 19;
-int c = -5;
+int c = 25;
 
-int max = a;
+int max;
 
-if (max > b)
+if (a > b)
 {
-    if (max < c)
-    {
-        max = c;
-    }
+    max = a;
 }
 else
 {
     max = b;
-    if (max < c)
-    {
+}
+if (max < c)
+{
     max = c;
-    }
 }
 
 Console.Write("Наибольшее число - ");
